@@ -1,0 +1,30 @@
+{
+  "name": "cz-al-mobile-changelog",
+  "version": "0.0.1",
+  "description": "Commitizen adapter following the conventional-changelog format.",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "echo 'Tests need to be setup!'"
+  },
+  "homepage": "https://github.com/Aliangxu/cz-al-mobile-changelog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aliangxu/cz-al-mobile-changelog.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash.map": "^4.5.1",
+    "longest": "^1.0.1",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.0.3"
+  },
+  "devDependencies": {
+    "commitizen": "2.9.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
+  }
+}
